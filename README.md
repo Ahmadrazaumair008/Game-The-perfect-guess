@@ -19,3 +19,8 @@ This is a simple number guessing game written in Python. The computer generates 
    python3 -m venv venv  # Create the environment
    source venv/bin/activate  # Activate on Linux/macOS
    venv\Scripts\activate  # Activate on Windows
+
+###
+
+Contributions are welcome!  Please open an issue or submit a pull request.
+
