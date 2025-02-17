@@ -1,19 +1,21 @@
-# Game-The-perfect-guess
-A fun number guessing game written in Python. The program generates a random number, and the player has to guess it. The program provides feedback (too high/too low) until the correct number is guessed.
-'''
-import random # importing random module
-n = random.randint(1,100)  # generating random number
-a = -1   # initializing a variable
-guesses = 0  # initializing a variable
+# Number Guessing Game
 
-while (a != n):  # while loop
-  guesses +=1  # incrementing guesses
-  a = int(input("Enter the number: "))
-  if(a > n):   # if condition
-    print("Enter a smaller number")
-  else:
-    print("Enter a larger number")
+This is a simple number guessing game written in Python. The computer generates a random number between 1 and 100, and the player has to guess the number.
 
-# printing the number of guesses
-print("You guessed the number in",guesses,"guesses")  
-'''
+## How to Play
+
+1. Run the `main.py` script.
+2. The game will prompt you to enter a number.
+3. Enter your guess and press Enter.
+4. The game will tell you if your guess is too high or too low.
+5. Keep guessing until you guess the correct number.
+6. The game will then tell you how many guesses it took you to win.
+
+## How to Run
+
+1. Make sure you have Python installed.
+2. (Optional but recommended) Create a virtual environment:
+   ```bash
+   python3 -m venv venv  # Create the environment
+   source venv/bin/activate  # Activate on Linux/macOS
+   venv\Scripts\activate  # Activate on Windows
